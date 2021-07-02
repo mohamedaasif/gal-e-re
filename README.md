@@ -18,7 +18,7 @@ Gal(e)re is a gallery app where you can store and manage images on your account.
     - Node  
     - Mysql 
 
-### Demo Images :  
+### Project Screenshot :  
 1. Login Page :  
      
     ![Login](https://user-images.githubusercontent.com/52825641/124256680-339db080-db49-11eb-9e0b-effdba9193da.png)      
