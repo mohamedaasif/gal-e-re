@@ -1,0 +1,62 @@
+.wrapper {
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.authLinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links a,
+.logout a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.links a:nth-child(1) {
+  background-color: var(--primary-color);
+}
+.links a:nth-child(1):hover {
+  background-color: var(--primary-hover);
+}
+.links a:nth-child(2) {
+  background-color: var(--secondary-color);
+}
+.links a:nth-child(2):hover {
+  background-color: var(--secondary-hover);
+}
+
+.logout a {
+  background-color: var(--primary-color);
+}
+
+.logout a:hover {
+  background-color: var(--primary-hover);
+}
+
+.userprofile a:first-child,
+.logout a:first-child {
+  margin-right: 10px;
+}
+
+.userprofile a i {
+  margin-right: 7px;
+}

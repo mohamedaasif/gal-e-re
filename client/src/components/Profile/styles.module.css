@@ -1,0 +1,11 @@
+p {
+  margin: 0;
+}
+
+.container {
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

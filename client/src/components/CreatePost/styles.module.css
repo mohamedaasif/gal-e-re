@@ -1,0 +1,81 @@
+.container {
+  width: 70%;
+  margin: 50px auto 25px auto;
+  overflow: hidden;
+}
+
+.container .heading h2 {
+  text-align: center;
+}
+
+.postForm {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.customFile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customFile input[type="file"] {
+  display: none;
+  visibility: none;
+}
+
+.customFile label {
+  border: 1px solid #d3d3d3;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.customFile label i {
+  font-size: 8rem;
+  margin-bottom: 10px;
+}
+
+.customFile label p {
+  font-size: 1.5rem;
+}
+
+.title,
+.caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title label,
+.caption label {
+  width: 400px;
+  float: left;
+}
+
+.title input,
+.caption textarea {
+  width: 400px;
+}
+
+.caption textarea {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.caption textarea:focus {
+  border: 2px solid var(--secondary-color);
+}
+
+.postButton {
+  display: flex;
+  justify-content: center;
+}

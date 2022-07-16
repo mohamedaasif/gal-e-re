@@ -1,0 +1,55 @@
+.card {
+  width: 350px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px 10px 10px;
+}
+
+.cardImg {
+  width: 100%;
+  height: 250px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.cardImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardFooter {
+  padding: 5px 10px 20px 10px;
+}
+
+.cardHeader p:first-child,
+.titleName p:first-child {
+  font-weight: 600;
+}
+
+.cardFooter p:last-child {
+  font-size: 14px;
+}
+
+.cardHeader p:last-child {
+  color: red;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.titleName {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.titleName p:last-child {
+  font-size: 12px;
+}

@@ -1,0 +1,39 @@
+.wrapper {
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.social ul {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.social li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.social li:nth-child(4) {
+  margin-right: 0;
+}
+
+.social li a {
+  color: white;
+  font-size: 30px;
+}
+
+.contact a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}

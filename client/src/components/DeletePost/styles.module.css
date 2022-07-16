@@ -1,0 +1,23 @@
+.deleteModalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+}
+
+.deleteModalBox {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 30px 40px;
+}
+
+.deleteModalButton {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}

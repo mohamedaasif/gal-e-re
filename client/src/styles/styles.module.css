@@ -1,0 +1,88 @@
+.wrapper {
+  display: flex;
+  margin: 50px 0 25px 0;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formcontainer {
+  width: 40%;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.fa_eye {
+  position: relative;
+}
+
+.fa_eye i {
+  position: absolute;
+  bottom: 13px;
+  right: 10px;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid var(--secondary-hover);
+  border-radius: 3px;
+}
+
+.loginheader {
+  margin-bottom: 20px;
+}
+
+.loginheader h1 {
+  color: var(--primary-color);
+}
+
+.signuplink a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.signuplink a:hover {
+  text-decoration: underline;
+  color: var(--primary-hover);
+}
+.errorMsg {
+  color: red;
+  font-size: 13px;
+}
+
+.userSuccess {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #4f8a10;
+  background-color: #dff2bf;
+}
+
+.forgetPassword {
+  margin-bottom: 10px;
+}
+
+.forgetPassword a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.forgetPassword a:hover {
+  color: var(--primary-hover);
+  text-decoration: underline;
+}

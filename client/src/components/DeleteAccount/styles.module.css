@@ -1,0 +1,45 @@
+.title {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title h1 {
+  margin-bottom: 20px;
+}
+
+.homeButtons Button:first-child {
+  margin-right: 10px;
+}
+
+.userDetail {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.userDetail p {
+  margin-bottom: 10px;
+}
+
+.userPassword {
+  margin-top: 50px;
+  position: relative;
+}
+
+.userPassword input {
+  width: 300px;
+}
+.userPassword i {
+  position: absolute;
+  top: 47px;
+  right: 10px;
+  cursor: pointer;
+}
+.userPassword Button {
+  margin-top: 10px;
+}
+.errorMsg {
+  color: red;
+}

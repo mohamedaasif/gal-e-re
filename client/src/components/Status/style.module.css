@@ -1,0 +1,28 @@
+.statusContainer {
+  border: 1px solid #4f8a10;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: animate-status 0.5s ease-in-out;
+}
+
+.statusMsg {
+  padding: 10px 20px;
+  color: #356107;
+  background-color: #f8fff0;
+}
+
+@keyframes animate-status {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
