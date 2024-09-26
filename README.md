@@ -42,4 +42,3 @@ Gal(e)re is a gallery app where you can store and manage images on your account.
     ![DeleteAccount](https://user-images.githubusercontent.com/52825641/124257492-0ac9eb00-db4a-11eb-9f97-4671fea7cb9d.png)  
 
 
-#### NOTE : Codes are yet to be pushed.
